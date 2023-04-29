@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -65,7 +66,9 @@
                                                 <label class="form-label" for="password">Password</label>
                                             </div>
                                         </div>
-
+                                        <div class="d-flex flex-row align-items-center mb-4 px-3">
+                                            <div class="g-recaptcha" data-sitekey="enter your client side integration key here"></div>
+                                        </div>
                                         <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                                             <button type="submit" name="register" id="register" class="btn btn-primary btn-lg">Register</button>
                                         </div>
