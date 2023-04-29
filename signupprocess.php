@@ -80,7 +80,7 @@ if (isset($_POST['g-recaptcha-response'])) {
                         // $mail->Username = 'apikey';
                         $mail->Username = 'ujjwal509kumar@gmail.com';
                         // $mail->Password = 'your smtp apikey or password here';
-                        $mail->Password = 'cswgatywmmgvvijb';
+                        $mail->Password = '';
                         // $mail->SMTPSecure = 'TLS';
                         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
                         // $mail->From = 'your mail here';
@@ -122,7 +122,7 @@ if (isset($_POST['g-recaptcha-response'])) {
                 // $mail->Username = 'apikey';
                 $mail->Username = 'ujjwal509kumar@gmail.com';
                 // $mail->Password = 'your smtp apikey or password here';
-                $mail->Password = 'cswgatywmmgvvijb';
+                $mail->Password = '';
                 // $mail->SMTPSecure = 'TLS';
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
                 // $mail->From = 'your mail here';
