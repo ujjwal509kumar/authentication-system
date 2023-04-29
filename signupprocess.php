@@ -22,7 +22,6 @@ if (isset($_POST['g-recaptcha-response'])) {
         $act_str = rand(100000, 10000000);
         $activation_code = str_shuffle("abcdefghijklmno" . $act_str);
 
-
         if (isset($_POST['register'])) {
 
             $otp = $_POST['otp'];
